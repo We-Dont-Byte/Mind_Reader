@@ -1,9 +1,8 @@
 "use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-exports.textCommands = void 0;
+import { CommandEntry } from './commandEntry';
 const vscode = require("vscode");
 const pl = require("../pylex");
-exports.textCommands = [
+export const textCommands: CommandEntry[] = [
     {
         name: 'mind-reader.getLineNumber',
         callback: getLineNumber,
@@ -28,7 +27,7 @@ exports.textCommands = [
 /* Helper Function
  * This function returns the line number of the active text editor window
  */
-function fetchLineNumber(editor) {
+function fetchLineNumber(editor: any) {
     return editor.selection.active.line + 1;
 }
 
@@ -111,7 +110,7 @@ function runLineContext() {
         vscode.window.showErrorMessage('No document currently active');
     }
 }
-function createContextString(context, line) {
+function createContextString(context: any, line: number) {
     if (context.length < 1) {
         throw new Error('Cannot create context string for empty context');
     }
