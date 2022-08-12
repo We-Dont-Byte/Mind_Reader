@@ -122,7 +122,7 @@ After adding the code block, the `settings.json` file should look similar to thi
 * Run `./install-windows.ps1` in PowerShell as a normal user, and accept any UAC prompts that pop up. The installation should take around 8 minutes. If an installer doesn't pop up, don't be alarmed.
 
 For other platforms, or to install the extension manually, check out our [Developer Install Guide](../../wiki/Developer-Install-Guide). This is also where you should search if you encounter errors.
-
+For first time installation or vscode updates, do step #10 from the manual installation instructions
 
 
 See the Visual Studio Code [getting started](https://code.visualstudio.com/api/get-started/your-first-extension)
@@ -145,3 +145,6 @@ API page if you need more help.
 - Kendrick Johnson: [\<KendrickJohnson@my.unt.edu\>](mailto:KendrickJohnson@my.unt.edu)
 - Ryan Tolbert: [\<RyanTolbert@my.unt.edu\>](mailto:RyanTolbert@my.unt.edu)
 - Pedro Alvarez: [\<PedroAlvarez3@my.unt.edu\>](mailto:PedroAlvarez3@my.unt.edu)
+
+#### Summer 20222
+- Simon Maceda: [\<SimonMaceda@my.unt.edu\>](mailto:SimonMaceda@my.unt.edu)

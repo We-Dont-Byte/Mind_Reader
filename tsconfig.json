@@ -12,6 +12,7 @@
 		"noUnusedLocals": true,
 		"noUnusedParameters": true,
 		"strict": true,  /* enable all strict type-checking options */
+		"allowJs": true, /* enables importing of JavaScript files */
 	},
 	"exclude": [
 		"node_modules",
